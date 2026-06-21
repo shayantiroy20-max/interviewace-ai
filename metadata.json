@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Analyzer App",
+  "description": "Premium SaaS-ready AI Resume Analyzer, ATS Scorer, and Mock Interview Coach.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

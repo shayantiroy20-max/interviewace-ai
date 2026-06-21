@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Graceful Light Mode Theme Overrides */
+.light-mode-active {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+.light-mode-active .bg-slate-900,
+.light-mode-active .bg-slate-950,
+.light-mode-active .bg-\[\#0F172A\],
+.light-mode-active .bg-slate-900\/80,
+.light-mode-active .bg-[#0F172A] {
+  background-color: #FFFFFF !important;
+}
+
+.light-mode-active .text-white,
+.light-mode-active .text-slate-100,
+.light-mode-active .text-slate-200,
+.light-mode-active .text-[#F8FAFC] {
+  color: #0F172A !important;
+}
+
+.light-mode-active .text-slate-300,
+.light-mode-active .text-slate-400 {
+  color: #475569 !important;
+}
+
+.light-mode-active .border-slate-800,
+.light-mode-active .border-slate-700,
+.light-mode-active .border-slate-800\/60,
+.light-mode-active .border-slate-900,
+.light-mode-active .border-white\/10 {
+  border-color: #E2E8F0 !important;
+}
+
+.light-mode-active .bg-slate-900\/40,
+.light-mode-active .bg-slate-900\/50,
+.light-mode-active .bg-slate-950\/40,
+.light-mode-active .bg-slate-950\/50,
+.light-mode-active .bg-slate-900\/80 {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(8px);
+}
+
+.light-mode-active input,
+.light-mode-active textarea,
+.light-mode-active select {
+  background-color: #F1F5F9 !important;
+  color: #0F172A !important;
+  border-color: #CBD5E1 !important;
+}
+
+.light-mode-active input::placeholder,
+.light-mode-active select::placeholder,
+.light-mode-active textarea::placeholder {
+  color: #64748B !important;
+}
+
+.light-mode-active .from-indigo-600,
+.light-mode-active .from-slate-950,
+.light-mode-active .from-indigo-950 {
+  --tw-gradient-from: #EEF2F6 !important;
+}
+
+.light-mode-active .to-purple-950,
+.light-mode-active .to-slate-900,
+.light-mode-active .to-indigo-950 {
+  --tw-gradient-to: #E2E8F0 !important;
+}
